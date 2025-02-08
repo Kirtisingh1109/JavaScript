@@ -1,6 +1,6 @@
 //
 
-let num = 0;
+let num = 10;
 
 if(num >0){
     console.log(num + " is a positive number");
@@ -23,3 +23,5 @@ while(count < 5){
     console.log("Count:" , count);
     count++;
 }
+
+//

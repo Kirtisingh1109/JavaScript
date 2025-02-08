@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+</head>
+<body>
+
+    
+
+    <h1 id="myHeader">Original Header Text</h1>
+    <button onclick="changeHeader()">Change Header</button>
+
+    <script>
+        
+
+        
+        function changeHeader() {
+            let header = document.getElementById("myHeader"); // Select the header element
+            header.textContent = "New Header Text"; // Change the text content
+        }
+        
+    </script>
+
+</body>
+</html>
