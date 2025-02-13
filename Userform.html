@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="Userfrom">
+<label for="UserName">Username:</label>
+<input type="text" id="UserName" >
+<button type="submit">Submit</button>
+
+
+    </form>
+
+<script>
+    let form = document.getElementById("userform");
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();//Prevents the default from Submission Behaviour
+        let UserName = documrnt.getElementById("username").value;
+        console.log("Username:", username);
+    });
+</script>
+</body>
+</html>
